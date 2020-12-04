@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DefaultComponent } from './default.component';
+import { PageContentComponent } from './page-content.component';
 import { DashboardComponent } from 'src/app/modules/dashboard/dashboard.component';
 import { RouterModule } from '@angular/router';
 // import { PostsComponent } from 'src/app/modules/posts/posts.component';
@@ -14,12 +14,12 @@ import { SettingsComponent } from 'src/app/modules/settings/settings.component';
 
 @NgModule({
   declarations: [
-    DefaultComponent,
-    DashboardComponent,
-    DevicesComponent,
-    AddDeviceComponent,
-    HelpComponent,
-    SettingsComponent
+    PageContentComponent,
+    // DashboardComponent,
+    // DevicesComponent,
+    // AddDeviceComponent,
+    // HelpComponent,
+    // SettingsComponent
     // PostsComponent
   ],
   imports: [
@@ -30,4 +30,4 @@ import { SettingsComponent } from 'src/app/modules/settings/settings.component';
     MatDividerModule, 
   ]
 })
-export class DefaultModule { }
+export class PageContentModule { }

@@ -1,7 +1,7 @@
-.profile-card{
+.profile-card {
     text-align: center;
     padding: 0 20px 20px 20px;
-    img{
+    img {
         width: 100px;
         height: 100px;
         object-fit: cover;
@@ -9,9 +9,14 @@
     }
 }
 
-:host{
-    mat-icon{
+:host {
+    mat-icon {
         vertical-align: middle;
         margin-right: 20px;
     }
+}
+
+.header h2 {
+    position: relative;
+    top: 10px;
 }

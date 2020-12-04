@@ -9,12 +9,10 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatMenuModule } from '@angular/material/menu';
-import {MatListModule} from '@angular/material/list';
+import { MatListModule } from '@angular/material/list';
 import { Router, RouterModule } from '@angular/router';
 import { WeatherComponent } from './widgets/weather/weather.component';
-import { HighchartsChartModule} from 'highcharts-angular';
-
-
+import { HighchartsChartModule } from 'highcharts-angular';
 
 @NgModule({
   declarations: [
@@ -34,7 +32,6 @@ import { HighchartsChartModule} from 'highcharts-angular';
     MatListModule,
     RouterModule,
     HighchartsChartModule,
-
   ],
   exports: [
     HeaderComponent,

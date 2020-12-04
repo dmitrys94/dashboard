@@ -1,21 +1,24 @@
-<mat-toolbar color="primary">
+<mat-toolbar>
     <mat-toolbar-row>
         <button mat-icon-button (click)="openSideBar()"> 
             <mat-icon>menu</mat-icon>
         </button>
 
-
-        <span>APP LOGO</span>
+        <span>Flatfox</span>
         <div fxFlex fxLayout="row" fxLayoutAlign="flex-end">
             <ul fxLayout="row" fxLayoutGap='20px'>
                 <li>
-                    <button mat-icon-button>
-                        <mat-icon>settings</mat-icon>
+                    <button mat-icon-button
+                        routerLink="/settings"
+                        routerLinkActive="list-item-active">
+                            <mat-icon>settings</mat-icon>
                     </button>
                 </li>
                 <li>
-                    <button mat-icon-button>
-                        <mat-icon>help</mat-icon>
+                    <button mat-icon-button
+                        routerLink="/help"
+                        routerLinkActive="list-item-active">
+                            <mat-icon>help</mat-icon>
                     </button>
                 </li>
                 <li>

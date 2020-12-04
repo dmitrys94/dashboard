@@ -10,11 +10,9 @@ export class WeatherComponent implements OnInit {
 
   constructor() { }
 
-  chartOptions:[];
-
+  chartOptions: [];
 
   ngOnInit(): void {
-    this.chartOptions = []
+    this.chartOptions = [];
   }
-
 }

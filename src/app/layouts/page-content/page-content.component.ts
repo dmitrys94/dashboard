@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-default',
-  templateUrl: './default.component.html',
-  styleUrls: ['./default.component.scss']
+  selector: 'app-page-content',
+  templateUrl: './page-content.component.html',
+  styleUrls: ['./page-content.component.scss']
 })
-export class DefaultComponent implements OnInit {
+export class PageContentComponent implements OnInit {
 
   sidebarOpen = false;
 
