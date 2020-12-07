@@ -11,6 +11,10 @@ import { AddDeviceComponent } from 'src/app/modules/add_device/add-device.compon
 import { DevicesComponent } from 'src/app/modules/devices/devices.component';
 import { HelpComponent } from 'src/app/modules/help/help.component';
 import { SettingsComponent } from 'src/app/modules/settings/settings.component';
+import { MatCardModule } from '@angular/material/card';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
+
 
 @NgModule({
   declarations: [
@@ -28,6 +32,11 @@ import { SettingsComponent } from 'src/app/modules/settings/settings.component';
     SharedModule,
     MatSidenavModule,
     MatDividerModule, 
+    MatCardModule,
+    FlexLayoutModule,
+    
+    
+    
   ]
 })
 export class DefaultModule { }

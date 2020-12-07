@@ -6,7 +6,6 @@ import { DevicesComponent } from './modules/devices/devices.component';
 import { DashboardComponent } from './modules/dashboard/dashboard.component';
 import { SettingsComponent } from './modules/settings/settings.component';
 import { HelpComponent } from './modules/help/help.component';
-import { LandingPageComponent } from './layouts/landing-page/landing-page.component';
 // import { PostsComponent } from './modules/posts/posts.component';
 
 const routes: Routes = [
