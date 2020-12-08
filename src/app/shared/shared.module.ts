@@ -13,6 +13,7 @@ import { MatListModule } from '@angular/material/list';
 import { Router, RouterModule } from '@angular/router';
 import { WeatherComponent } from './widgets/weather/weather.component';
 import { HighchartsChartModule } from 'highcharts-angular';
+import { ThermostatComponent } from './widgets/thermostat/thermostat/thermostat.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { HighchartsChartModule } from 'highcharts-angular';
     FooterComponent,
     SidebarComponent,
     WeatherComponent,
+    ThermostatComponent,
   ],
   imports: [
     CommonModule,
@@ -38,6 +40,7 @@ import { HighchartsChartModule } from 'highcharts-angular';
     FooterComponent,
     SidebarComponent,
     WeatherComponent,
+    ThermostatComponent
   ]
 })
 export class SharedModule { }

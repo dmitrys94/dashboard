@@ -14,8 +14,6 @@ import { SettingsComponent } from 'src/app/modules/settings/settings.component';
 import { MatCardModule } from '@angular/material/card';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
-
-
 @NgModule({
   declarations: [
     DefaultComponent,
